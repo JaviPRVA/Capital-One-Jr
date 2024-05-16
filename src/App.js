@@ -1,21 +1,21 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import piggy from './assets/piggy.png';
+import Home from './pages/Home';
+import Quiz from './pages/Quiz';
+
+import { Routes, Route } from 'react-router-dom';
+
 
 
 function App() {
   return (
-    <div className="Home">
-      <div>
-         <Navbar />
-       </div>
-       <div className="bg-[#053C59] h-screen">
-        <div className="justify-center mx-auto flex">
-        <img src={piggy} alt="piggy" className="pt-20 w-[400px] h-auto" />
-        </div>
+<Routes>
+      {/* Route for Home component */}
+      <Route path="/" element={<Home />} />
 
-      </div>
-    </div>
+      <Route path="/quiz" element={<Quiz />} />
+
+      
+    </Routes>
   );
 }
 

@@ -1,17 +1,15 @@
 import Navbar from '../components/Navbar';
 import React, { useState } from 'react';
-import piggy from '../assets/piggy.png';
 
 
-function Home() {
+function Quiz() {
   return (
-    <div className="Home">
+    <div className="Quiz">
       <div>
          <Navbar />
        </div>
        <div className="bg-[#053C59] h-screen">
         <div className="justify-center mx-auto flex">
-        <img src={piggy} alt="piggy" className="pt-20 w-[400px] h-auto" />
 
         </div>
 
@@ -20,4 +18,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Quiz;
