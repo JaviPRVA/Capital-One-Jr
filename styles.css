@@ -1,0 +1,197 @@
+body {
+  background-color: #bee6f4;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #033c5a;
+}
+
+ul {
+  overflow: hidden;
+}
+
+#CapOneJr {
+  height: 50px;
+  width: auto; 
+  padding-right: 0;
+  margin-right: 0; 
+  margin-left: auto;
+  display: inline-block;
+}
+
+.navItem a:hover {
+  background-color: #EBEBEB;
+  border: solid 20px #EBEBEB;
+  border-radius: 15%;
+}
+
+#CapOneJr a:hover {
+  background-color: none;
+}
+
+nav {
+  position:static;
+  top: 0;
+  left: 0; 
+  right: 0; 
+  z-index: 1000;
+  border: solid 4px #fffffb;
+  background-color: #fffffb;
+  height: 70px;
+  vertical-align: middle;
+  padding: 0;
+  border: solid 2px #EBEBEB;
+}
+
+#navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  border: solid 4px #fffffb;
+  background-color: #fffffb;
+  height: 70px;
+  padding: 0;
+  border: solid 2px #EBEBEB;
+}
+
+.navItems {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.navItem {
+  margin-left: 20px;
+}
+
+.navItem:first-child {
+  margin-left: 0;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: #d02327;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  padding: 10px 15px;
+}
+
+.navItem a:hover {
+  background-color: #EBEBEB;
+}
+
+#CapOneJr {
+  padding-top: 10px;
+  height: 50px;
+  width: auto; 
+  padding-right: 0;
+  margin-right: 450px; 
+  margin-left: 20px; 
+}
+
+.literacyTest {
+  text-align: left;
+  padding-top: 100px;
+  margin-left: 2%;
+}
+
+#timer {
+  margin-top: 2%;
+}
+
+button {
+  font-family: Georgia;
+  align-items: center;
+  background-color: #fffffb;
+  border: none;
+  color: #d02327;
+  padding: 1vw 1vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border: solid 3px #d02327;
+  border-radius: 5%;
+  position: relative;
+  top: 50%;
+  left: 17%;
+  right: 50%;
+}
+
+#questionContainer {
+  margin-left: 5%
+}
+
+button {
+  font-family: Arial, sans-serif;
+  background-color: #f8c800;
+  border: none;
+  color: #033c5a;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #ebebeb;
+  color: #d02327;
+}
+
+#restartButton {
+  display: none; /* Initially hidden */
+}
+
+.mission {
+  margin-left: 10%;
+  margin-right: 7.5%
+}
+
+#missionHeading {
+  margin-top: 10%
+}
+
+#missionText {
+  font-size: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #d02327;
+}
+
+.staffContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.staffMember {
+  text-align: center;
+}
+
+.staffMember img {
+  border: 2px solid #d02327; 
+  border-radius: 50%; 
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.staffMember figcaption {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #033c5a; 
+  font-family: Arial, sans-serif;
+}
+
+#missionLink a:active a:visited {
+  text-decoration: #0000FF;
+}
+
