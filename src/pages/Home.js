@@ -116,7 +116,6 @@ function Home() {
                             />
                             <h1 className="text-white text-[25px]">Task 1</h1>
                         </button>
-                        {/* popup code */}
                         {popupVisible && (
                             <div className="z-50 fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
                                 <div className="bg-white p-8 rounded-md">
@@ -529,10 +528,12 @@ function Home() {
                             </div>
                         )}
                     </div>
+
                 </div>
             </div>
         </div>
     );
 }
+
 
 export default Home;
