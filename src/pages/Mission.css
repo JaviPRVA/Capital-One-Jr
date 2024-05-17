@@ -9,6 +9,10 @@ body {
     width: auto;
   }
   
+  #navBar {
+    border-bottom: 1px solid #EBEBEB; /* Add border with the desired color */
+  }
+  
   .mission {
     padding: 20px;
     background-color: #BEE6F4;
@@ -33,7 +37,7 @@ body {
   #missionText {
     font-size: 18px;
     line-height: 1.6;
-    color: #0335CA; /* Updated color */
+    color: #033C5A ; /* Updated color */
   }
   
   #missionLink {

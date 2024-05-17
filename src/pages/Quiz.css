@@ -1,0 +1,96 @@
+/* Navbar styles */
+#navBar {
+    background-color: #053C59;
+    padding: 10px;
+}
+
+.navItems {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navItem {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.navItem a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Apply background color to the body */
+body {
+    background-color: white;
+    margin: 0; /* Remove default margin */
+}
+
+/* Quiz container styles */
+.literacyTest {
+    text-align: left;
+    margin: 0 auto; /* Center horizontally */
+    padding: 50px;
+    max-width: 100%; /* Extend to full width */
+    background-color: #BEE6F4; /* Apply background color */
+}
+
+.literacyTest h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.literacyTest p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#questionContainer {
+    margin-top: 40px;
+}
+
+#question {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#answers {
+    margin-top: 20px;
+}
+
+#answers div {
+    margin-bottom: 10px;
+}
+
+#answers input[type="radio"] {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#timer {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button {
+    margin-top: 40px;
+    padding: 15px 30px;
+    background-color: #053C59;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #03283C;
+}

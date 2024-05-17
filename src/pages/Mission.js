@@ -19,25 +19,25 @@ const Mission = () => {
             <img id="CJR_Logo.png" src={CJRLogo} alt="Mobile Logo" height="50px" width="50px" style={{ marginLeft: "10px" }} />
           </div>
         </div>
-        <p id="missionText" className="pr-40 pl-40"style={{ fontSize: "24px", textAlign: "center" }}>
+        <p id="missionText" className="font-bold pr-40 pl-40"style={{ fontSize: "24px", textAlign: "center" }}>
           At CapitalOne Junior, our mission is to empower first-generation children with the knowledge and skills necessary to achieve financial literacy. We are dedicated to providing accessible, engaging, and practical education that equips young minds with the confidence to manage their finances wisely. By fostering a strong foundation in financial literacy through our interactive educational quizzes and realistic budgeting simulator, we aim to inspire a future generation that is informed, responsible, and prepared to make sound financial decisions. Through these innovative learning tools and resources, we strive to close the gap in financial education and ensure every child has the opportunity to build a secure and prosperous future. For more information on how to help your child establish and build credit, visit the link <a href="https://www.capitalone.com/learn-grow/money-management/how-to-help-build-family-members-credit/" title="CapOne" target="_blank" id="missionLink">here</a>.
         </p>
 
-        <h1 id="missionHeading" className="font-bold pt-6"style={{ fontSize: "36px", textAlign: "center" }}>Staff</h1>
+        <h1 id="missionHeading" className="font-semibold pt-6"style={{ fontSize: "36px", textAlign: "center" }}>Staff</h1>
         <div className="staffContainer">
-          <figure className="staffMember">
+          <figure className="staffMember text-center">
             <img src={Javier} alt="Javier Ralat" />
             <figcaption><b>Javier Ralat</b><br /><i>Virginia Polytechnic Institute and State University</i></figcaption>
           </figure>
-          <figure className="staffMember">
+          <figure className="staffMember text-center">
             <img src={Nyla} alt="Nyla Crespo" />
             <figcaption><b>Nyla Crespo</b><br /><i>Howard University</i></figcaption>
           </figure>
-          <figure className="staffMember">
+          <figure className="staffMember text-center">
             <img src={Ibrahima} alt="Ibrahima Toure" />
             <figcaption><b>Ibrahima Toure</b><br /><i>Northeastern University</i></figcaption>
           </figure>
-          <figure className="staffMember">
+          <figure className="staffMember text-center">
             <img src={Hilary} alt="Hilary Rojas Rosales" />
             <figcaption><b>Hilary Rojas Rosales</b><br /><i>Binghamton University</i></figcaption>
           </figure>
